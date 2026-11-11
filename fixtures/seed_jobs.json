@@ -1,0 +1,23 @@
+[
+  {"source": "remoteok", "url": "https://remoteok.com/l/1001",
+   "apply_url": "https://boards.greenhouse.io/acme/jobs/1001",
+   "company": "Acme Technologies Pvt. Ltd.", "title": "Senior AI Engineer (m/f/d) [Remote]",
+   "location": "Remote (India)", "remote_kind": "remote", "employment_type": "full_time",
+   "ats_vendor": "greenhouse", "description": "RAG, evaluation harnesses, agent orchestration.",
+   "tags": ["rag", "evals"]},
+
+  {"source": "remotive", "url": "https://remotive.com/l/2002",
+   "company": "Beta Labs, Inc", "title": "AI Engineer - Remote",
+   "location": "Remote (US only)", "remote_kind": "remote", "employment_type": "contract",
+   "description": "LLM serving and retrieval."},
+
+  {"source": "weworkremotely", "url": "https://weworkremotely.com/l/3003",
+   "company": "Acme Technologies, Inc.", "title": "Senior AI Engineer",
+   "location": "Remote - India", "remote_kind": "remote",
+   "description": "The SAME posting as the first one, cross-listed on another board with a\ndifferent company suffix, a stripped title tag, and a differently-punctuated location.\nIt must collapse to one job."},
+
+  {"source": "himalayas", "url": "https://himalayas.app/l/4004",
+   "company": "Beta Labs", "title": "AI Engineer",
+   "location": "Remote - India", "remote_kind": "remote",
+   "description": "Same company and title as Beta Labs above, but INDIA rather than US-only. A\ndifferent job you are eligible for, so it must NOT collapse."}
+]

@@ -1,0 +1,26 @@
+# --- python ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# --- secrets: NEVER commit ---
+.env
+.env.local
+secrets/            # storage_state.json cookies, Gmail OAuth tokens
+
+# --- generated output ---
+artifacts/          # rendered resumes, dry-run screenshots, DOM dumps
+!artifacts/.gitkeep
+exports/*.csv       # regenerated from Postgres on demand; never a source of truth
+!exports/.gitkeep
+
+# --- macOS ---
+.DS_Store
